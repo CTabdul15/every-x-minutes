@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Every x minutes v2",
+		"description": "You will grow every x minutes.\nYou can change the time by adding a new score example: write in the chat !change and close the chat than enter your value like 10\nand 10 is like every 10 minutes.",
+		"uuid": "2e4ef0ec-15ed-4d2e-9c03-24f4fd1b549d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 19, 50]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "1adffa04-9847-4e4b-a4bf-3987ccf090f0",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "39315c0b-5cfd-4a8b-9a15-e1759e966623",
+			"version": [1, 0, 0],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "mojang-minecraft",
+			"version": "1.6.0-beta"
+		},
+		{
+			"module_name": "mojang-minecraft-ui",
+			"version": "1.2.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["CTabdul15"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.1.2"],
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	}
+}
